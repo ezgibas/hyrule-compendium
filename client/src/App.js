@@ -15,7 +15,7 @@ function App() {
   });
   return (
     <div>
-      <h1>Here's the data: {eventData} BRUH HERE'S A CHANGE BRUH MINEBTHS</h1>
+      <h1>Here's the data: {eventData}</h1>
     </div>
   )
 }
