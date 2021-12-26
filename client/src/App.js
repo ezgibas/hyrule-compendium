@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import React, { useEffect, useState } from "react";
 
 function App() {
@@ -10,12 +8,13 @@ function App() {
       return response.json();
     })
     .then(data => {
-      setEventData(data.data.drops)
+      setEventData(data.data.description)
     });
   });
   return (
     <div>
-      <h1>Here's the data: {eventData}</h1>
+      <h1>Here's the data: </h1>
+      <p1>{eventData}</p1>
     </div>
   )
 }
