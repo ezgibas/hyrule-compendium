@@ -1,14 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import React from "react";
+import { Route, Routes, Link } from "react-router-dom";
 import Compendium from "./pages/Compendium";
 import HomePage from "./pages/HomePage";
 
 function App() {
   return (
+    <div>
     <Routes>
-      <Route exact path="/" element={<HomePage></HomePage>}></Route>
-      <Route path="/compendium" element={<Compendium></Compendium>}></Route>
+      <Route path="/compendium" element={<Compendium/>}/>
+      <Route exact path="/" element={<HomePage></HomePage>}/>
+      <Route element={<h1>not found</h1>}/>
     </Routes>
+    </div>
   );
 }
 
