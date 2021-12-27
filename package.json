@@ -18,7 +18,10 @@
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2",
     "braces": "^2.3.1",
+    "glob-parent": "^6.0.2",
     "hyrule-compendium": "^1.5.2",
+    "react-native": "^0.66.4",
+    "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1"
   }
 }
